@@ -1,0 +1,39 @@
+{
+  "name": "@0bipinnata0/path-fixer",
+  "version": "1.0.0",
+  "description": "修复 DocC 文档中的绝对路径问题",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/0bipinnata0/router"
+  },
+  "bin": {
+    "path-fixer": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [
+    "cli",
+    "docc",
+    "path",
+    "ios"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1",
+  "dependencies": {
+    "cac": "^6.7.14",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
